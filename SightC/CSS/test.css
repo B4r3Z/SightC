@@ -1,0 +1,47 @@
+body {
+  background-color: rgb(203, 210, 235);
+}
+
+#Baxerbey {
+  color: blueviolet;
+}
+
+/* inline > ID > Class > tag
+<h style:""> #ID > .class > h1 */
+
+#Sarchaw {
+  color: rgb(78, 11, 133);
+}
+
+#Sarchaw:hover {
+  color: rgb(156, 119, 187);
+}
+
+li:first-child {
+  color: rgb(180, 39, 81);
+}
+li:nth-child(2):hover {
+  color: rgb(180, 39, 81);
+}
+
+p + #link {
+color: blue;
+} 
+/* Every link after p, no matter the parent */
+
+p ~ #link {
+    color: rgb(255, 102, 0);
+}
+/* Every link after p, SAME parent */
+
+ul > li {
+    color:rgb(42, 105, 6)
+}
+
+/* Every li that is a direct child of a ul */
+
+ul li {
+    color:rgb(42, 105, 6)
+}
+
+/* Every li that is child or a grandchild of a ul*/
